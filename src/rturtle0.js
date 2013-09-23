@@ -43,8 +43,8 @@ function init() {
 			var before = source.value.slice(0, startPos);
 			var after = source.value.slice(endPos);
 
-			source.value = before + SP + after;
-			source.setSelectionRange(endPos+SP.length, endPos+SP.length);
+			source.value = before + _ + after;
+			source.setSelectionRange(endPos+_.length, endPos+_.length);
 			return false;
 		}
 	};
